@@ -4,27 +4,92 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <div class="nav-wrapper">
-      <nav>
-        <h1>Hello.com</h1>
-        <div class="nav-links">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </div>
-      </nav>
-    </div>
-    <div class="home-wrap">
-      <input type="text" id="saveTitle" placeholder="Untitled Document" />
-      <button id="savebtn">SAVE</button>
-    </div>
+    <div class="wrapper">
+      <div class="nav-wrapper">
+        <nav class="navbar">
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="megan.html">Invoice Generation</a>
+            <a href="#">Course Completion Certificate</a>
+            <a href="#">Event Ticket</a>
+            <a href="#">Restaurant Menu Receipt</a>
+          </div>
+        </nav>
+      </div>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>
+            Generate Professional Documents Instantly
+            <i class="fa-solid fa-file"></i>
+          </h1>
 
-    <section>
-      <iframe id="pdf-preview" src="" frameborder="0"></iframe>
-    </section>
+          <p>
+            Create invoices, certificates, tickets, and receipts in just a few
+            clicks. Download high-quality PDFs effortlessly.
+          </p>
+        </div>
+      </section>
+
+      <div class="card-container">
+        <div class="card">
+          <a href="megan.html">
+            <h3>Invoice Generation</h3>
+            <p>
+              Generate and download an invoice with a list of purchased items,
+              including product names, prices, quantities, and a grand total.
+            </p>
+            <div class="icon">
+              <i class="fa-solid fa-file-invoice"></i>
+            </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>Course Completion Certificate</h3>
+          <p>
+            Receive a downloadable certificate after completing a course,
+            showing your name, course title, and your percentage of correct
+            answers
+          </p>
+          <div class="icon">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Event Ticket</h3>
+          <p>
+            Select an event, enter your name, and get a personalized ticket with
+            a random ticket number and event details for download.
+          </p>
+          <div class="icon">
+            <i class="fa-solid fa-ticket"></i>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Restaurant Menu Receipt</h3>
+          <p>
+            Order food from a menu, view the items in your cart, and generate a
+            receipt showing item details and the grand total for download.
+          </p>
+          <div class="icon">
+            <i class="fa-solid fa-receipt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>© 2025 MyWebsite. All rights reserved.</p>
+    </footer>
+
     <script src="js/app.js" type="module"></script>
   </body>
 </html>
