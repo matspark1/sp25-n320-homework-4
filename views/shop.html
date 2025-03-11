@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="nav-wrapper">
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="/">POSTERED</a>
+                <a href="/shop">posters</a>
+                <a href="/about">about</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to POSTERED</h1>
+
+        <div class="catalog">
+            <ul>
+                <li>
+                    <img src="images/poster-1.webp">
+                    <span>OKINAWA - $40</span>
+                    <button class="add-to-cart" data-name="OKINAWA" data-price="40">Add to Cart</button>
+                </li>
+                <li>
+                  
+                    <img src="images/poster-2.webp">
+                    <span>Blue Wave - $38</span>
+                    <button class="add-to-cart" data-name="Blue Wave" data-price="38">Add to Cart</button>
+                </li>
+                <li>
+                    <img src="images/poster-3.webp">
+                    <span>Nine Lives - $42</span>
+                    <button class="add-to-cart" data-name="Nine Lives" data-price="42">Add to Cart</button>
+                </li>
+            </ul>
+        </div>
+
+        <div id="cart">
+            <h2>Your Cart</h2>
+            <table id="cart-items">
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </table>
+
+            <h2>Enter Your Details</h2>
+            <form id="customer-form">
+                <input type="text" placeholder="name" id="customer-name" required> 
+                <input type="email"  placeholder="email" id="customer-email" required>
+                
+            </form>
+
+            <button id="view-receipt">View Receipt</button>
+            <button id="download-receipt">Download Receipt</button>
+        </div>
+
+        <iframe id="pdf-preview" src="" frameborder="0"></iframe>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
