@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matt's Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="matthew.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="nav-wrapper">
+        <nav class="navbar">
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="megan.html">Invoice Generation</a>
+            <a href="#">Course Completion Certificate</a>
+            <a href="#">Event Ticket</a>
+            <a href="#">Restaurant Menu Receipt</a>
+          </div>
+        </nav>
+      </div>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>
+            Invoice Generator
+            <i class="fa-solid fa-file-invoice"></i>
+          </h1>
+
+          <p>
+            Generate and download an invoice with a list of purchased items,
+            including product names, prices, quantities, and a grand total.
+          </p>
+        </div>
+      </section>
+
+      <form>
+        <div class="question">
+          <h2>What is your name?</h2>
+          <input type="text" name="username" id="name" required />
+        </div>
+
+        <div class="question">
+          <h2>What is your favorite dessert?</h2>
+          <div class="choice">
+            <input
+              type="radio"
+              id="cookies"
+              name="dessert"
+              value="Cookies"
+              required
+            />
+            <label for="cookies">Cookies</label>
+          </div>
+          <div class="choice">
+            <input
+              type="radio"
+              id="brownies"
+              name="dessert"
+              value="Brownies"
+              required
+            />
+            <label for="brownies">Brownies</label>
+          </div>
+          <div class="choice">
+            <input
+              type="radio"
+              id="cheesecake"
+              name="dessert"
+              value="Cheesecake"
+              required
+            />
+            <label for="cheesecake">Cheesecake</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <h2>What is your favorite breakfast food?</h2>
+          <div class="choice">
+            <input
+              type="radio"
+              id="pancakes"
+              name="breakfast"
+              value="Pancakes"
+            />
+            <label for="pancakes">Pancakes</label>
+          </div>
+          <div class="choice">
+            <input
+              type="radio"
+              id="french-toast"
+              name="breakfast"
+              value="French Toast"
+            />
+            <label for="french-toast">French Toast</label>
+          </div>
+          <div class="choice">
+            <input
+              type="radio"
+              id="eggs-hashbrowns"
+              name="breakfast"
+              value="Eggs & Hashbrowns"
+            />
+            <label for="eggs-hashbrowns">Eggs & Hashbrowns</label>
+          </div>
+        </div>
+        <input type="submit" id="mattsubmit" />
+      </form>
+
+      <div class="btns">
+        <button id="view">View Certificate of Completion</button>
+      </div>
+
+      <iframe id="pdf-preview" src="" frameborder="0"></iframe>
+
+      <div class="btns">
+        <button id="download">Download the Certicate of Completion</button>
+      </div>
+      <footer class="footer">
+        <p>© 2025 MyWebsite. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script src="matthew.js" type="module"></script>
+  </body>
+</html>

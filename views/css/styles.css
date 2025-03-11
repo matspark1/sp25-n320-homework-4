@@ -1,125 +1,128 @@
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html, body {
- height: 110%;
- font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- background: rgb(174,232,238);
-background: linear-gradient( rgba(174,232,238,1) 0%, rgba(148,187,233,1) 100%);
+html,
+body {
+  height: 110%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(174, 232, 238);
+  background: linear-gradient(
+    rgba(174, 232, 238, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
 }
-h1, h2, h3, h4, h5, h6, p {
- margin-bottom: 16px
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
 }
-.wrapper{
-    height: 120vh;
+.wrapper {
+  height: 120vh;
 }
 
 .navbar {
-    display: flex;
-    justify-content: center; 
-    align-self: center; 
-    padding: 15px 5%;
-    backdrop-filter: blur(10px);
-    position: sticky;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 15px 5%;
+  backdrop-filter: blur(10px);
+  position: sticky;
+  margin: 0 auto;
 }
 
 .nav-links {
-    display: flex;
-    gap: 40px;
-    margin-right: 40px; 
-    font-size: 22px;
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+  font-size: 22px;
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: #444;
-    font-weight: 500;
-    transition: 0.3s;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
 .nav-links a:hover {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .hero {
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    padding: 80px 5%;
-    background-image: url(../images/wall.jpeg);
-    width: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: rgb(189, 205, 237);
-    text-align: center;
-    position: relative;
-    border-radius: 20px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 5%;
+  background-image: url(../images/wall.jpeg);
+  width: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(189, 205, 237);
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
 }
 
-
-
 .hero h1 {
-    font-size: 2.5rem;
-    color: #566179;
+  font-size: 2.5rem;
+  color: #566179;
 }
 
 .hero p {
-    font-size: 1.2rem;
-    color: #566179;
-    margin-right: 180px;
+  font-size: 1.2rem;
+  color: #566179;
+  margin-right: 180px;
 }
 
-
-.fa-solid{
-    font-size: 250px;
-    margin-left: 80px;
-    color: rgb(255, 255, 255);
-    
+.fa-solid {
+  font-size: 250px;
+  margin-left: 80px;
+  color: rgb(255, 255, 255);
 }
 
-.icon .fa-solid{
-    color: rgb(189, 205, 237);
-    font-size: 180px;
-    margin-left: 140px;
+.icon .fa-solid {
+  color: rgb(189, 205, 237);
+  font-size: 180px;
+  margin-left: 140px;
 }
-
-
-
 
 .card-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin: 40px 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 40px 5%;
 }
-a{
-    text-decoration: none;
-    color: #1a3f94;
+a {
+  text-decoration: none;
+  color: #1a3f94;
 }
 
 .card {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
-    height: 350px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  height: 350px;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 /* Footer */
 .footer {
-    text-align: center;
-    padding: 20px;
-    background: #f1f1f1;
-    margin-top: auto; /* Push the footer to the bottom of the page */
-    width: 100%;
+  text-align: center;
+  padding: 20px;
+  background: #f1f1f1;
+  margin-top: auto; /* Push the footer to the bottom of the page */
+  width: 100%;
 }
