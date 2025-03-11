@@ -2,11 +2,15 @@
 
 ### Project Summary
 
-Brief description of your what your project is about and why you chose that topic.
+This project provides a PDF generation system that allows users to create and download documents based on different scenarios. The system has four main functions:
+
+1. Invoice Generation – Users can add products to a cart and generate an invoice that lists product name, price, quantity, and total cost.
+2. Course Completion Certificate – After finishing an online course and assessment, users can generate a certificate that includes their name, course details, and assessment results.
+3. Restaurant Menu Receipt – Users can choose menu items, see a receipt with item names, prices, and quantities, and generate a total amount.
 
 ### Live Link
 
-[Blog Page](https://{username}.github.io/{reponame}/homework-2)
+[Home Page](https://sp25-n320-homework-4.onrender.com/)
 
 ### Key Takeaways
 
