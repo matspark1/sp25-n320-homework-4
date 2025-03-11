@@ -2,26 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Matt's Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="matthew.css" />
   </head>
   <body>
-    <div class="nav-wrapper">
-      <nav>
-        <h1>Hello.com</h1>
-        <div class="nav-links">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+    <div class="wrapper">
+      <div class="nav-wrapper">
+        <nav class="navbar">
+          <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/megan">Invoice Generation</a>
+            <a href="#">Course Completion Certificate</a>
+            <a href="#">Event Ticket</a>
+            <a href="/jonathan">Restaurant Menu Receipt</a>
+          </div>
+        </nav>
+      </div>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>
+            404
+            <i class="fa-solid fa-file-invoice"></i>
+          </h1>
+          <p>Page Not Found</p>
+          <a href="/">Go Back To Home Page</a>
         </div>
-      </nav>
+      </section>
     </div>
-    <div class="home-wrap">
-      <h1>404</h1>
-      <p>Page Not Found.</p>
-      <a href="/">Go back</a>
-    </div>
-    <script src="js/app.js" type="module"></script>
+
+    <script src="matthew.js" type="module"></script>
   </body>
 </html>

@@ -71,7 +71,7 @@ class GeneratePDF {
     this.pdfDoc = new jsPDF();
     this.position = { x: 10, y: 20 };
     this.addBackground();
-    this.addHeader("Matt's Eats");
+    this.addHeader("Matt's Eats 101");
     this.addSubHeader("Certificate of Completion");
     this.addText("to");
   }
