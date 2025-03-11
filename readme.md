@@ -10,7 +10,23 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Key Takeaways
 
-Understanding of why we are doing this project
+# Git & GitHub Collaboration
+
+- Managed divergent branches and resolved merge conflicts.
+- Used git pull, git push, and git merge effectively.
+- Worked in a team project environment.
+
+# JavaScript & PDF Generation
+
+- Utilized JavaScript to create a dynamic PDF document.
+- Handled pdf functionality, including adding/removing items and calculating totals.
+- Extended a shared PDF generator class
+
+# HTML & CSS Styling
+
+- Design and layout cohesive across all pages.
+- Utilized a color palate for consistency.
+- Similar navigation and page structure for ease of use.
 
 ### Design Choices
 
