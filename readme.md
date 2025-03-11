@@ -51,3 +51,6 @@ Brief description of your what your project is about and why you chose that topi
 ### Members & Responsibilities
 
 List all members and their roles
+Matthew: Scrum Master + President
+Megan: Designer (designed home page too)
+Jonathon: Analyst
